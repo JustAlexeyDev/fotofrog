@@ -1,7 +1,7 @@
 import './Home.css';
 
 import CamerasList from './Lists/CamersList';
-
+import BatteryList from './Lists/BatteryList'
 export default function Home() {
   return (
     <main>
@@ -19,7 +19,7 @@ export default function Home() {
           <button id='all-hits'>Все новинки</button>
         </div>
         <div id='hits'>
-          {/* NEWS DISPLAY */}
+          <BatteryList />
         </div>
     </main>
   );

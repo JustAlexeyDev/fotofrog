@@ -6,6 +6,7 @@ main {
 .HomeTitleHits {
   display: flex;
   justify-content: space-between;
+  margin: 10px 10px 10px 10px;
 }
 .HomeTitleHits button:hover, 
 .HomeTitleHits button:focus,

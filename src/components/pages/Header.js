@@ -10,8 +10,6 @@ export default function Header() {
       <div>
         <SideMenu />
       </div>
-      
-      <p>FotoFrog</p>
     </header>
   );
 }

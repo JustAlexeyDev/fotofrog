@@ -34,7 +34,7 @@ const SideMenu = () => {
                 {/* Menu */}
                 <nav>
                   <li><Link to="/Home"><button>Главная</button></Link></li>          
-                  <li><Link to="/BatteryList"><button>Батареи</button></Link></li>          
+                  <li><Link to="/BatteryList"><button>Аккумуляторы</button></Link></li>          
                   <li><Link to="/VideoSendersList"><button>Видео сендеры</button></Link></li> 
                   <li><Link to="/CamerasList"><button>Камеры</button></Link></li>   
                   <li><Link to="/CabelsList"><button>Кабели</button></Link></li>  

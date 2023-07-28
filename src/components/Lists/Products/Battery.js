@@ -1,4 +1,4 @@
-import camera from '../../../assets/imgs/Camera.jpg'
+import camera from '../../../assets/imgs/5393_big.jpg'
 
 import React, { useState } from 'react';
 
@@ -6,7 +6,7 @@ import '../css/Modal.css'
 
 
 export default function Battery() {
-  var name = 'зарядка для V-Mount на 2 поста KingMa BP-2CH ';
+  var name = 'Зарядка для V-Mount на 2 поста KingMa BP-2CH ';
   var Price = '9 390 руб';
   var Articul = 'Артикул: 00111';
   var Creator = 'Производитель: Kingma';

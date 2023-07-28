@@ -8,11 +8,11 @@ import '../css/Modal.css'
 export default function CameraREDV() {
   var name = 'зарядка для V-Mount на 2 поста KingMa BP-2CH ';
   var Price = '9 390 руб';
-  var Articul = 'Артикул: 00111';
-  var Creator = 'Производитель: Kingma';
-  var size = 'Размеры: 265 x 210 x 125';
-  var weight = '1.3 кг.';
-  
+  var Articul = 'Артикул: 00397';
+  var Creator = 'Производитель: RED';
+  var size = 'Размеры: 393 x 292 x 279';
+  var weight = '7 кг.';
+
   const [isOpen, setIsOpen] = useState(false);
 
   const openModal = () => {
@@ -40,19 +40,19 @@ export default function CameraREDV() {
           {isOpen && (
             <div className="modal-overlay">
               <div className="modal">
-                <h2> Камера RED V-Raptor XL 8K VV </h2>
+                <h2>{name}</h2>
                 <div className='info-product-modal'>
-                  <p id='articul'>Артикул: 00397</p>
-                  <p id='creator'>Производитель: RED</p>
-                  <p id='size'>Размеры:  393 x 292 x 279</p>
-                  <p id='weight'>Вес:  7 кг</p>
+                  <p id='articul'>{Articul}</p>
+                  <p id='creator'>{Creator}</p>
+                  <p id='size'>{size}</p>
+                  <p id='weight'>{weight}</p>
                 </div>
                 <button onClick={closeModal}>Закрыть</button>
               </div>
             </div>
           )}
-        </div>         
-      </div>  
+        </div>          
+      </div>    
 
   
     </div>
