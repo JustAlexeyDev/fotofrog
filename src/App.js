@@ -3,7 +3,7 @@ import React from 'react';
 import { Routes, Route } from "react-router-dom";
 
 // Import components
-import Footer from './components/pages/Footer';
+// import Footer from './components/pages/Footer';
 import Header from "./components/pages/Header";
 // import Nav from "./components/Nav";
 import BatteryList from "./components/Lists/BatteryList";
@@ -37,7 +37,7 @@ export default function App() {
         <Route path="StabilizationList" element={<StabilizationList />} />
         <Route path="BodyKitsList" element={<BodyKitsList />} />
       </Routes>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

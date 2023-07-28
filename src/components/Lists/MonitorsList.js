@@ -1,7 +1,10 @@
+import MonitorPr from "./Products/MonitorPr";
+import './css/Product.css';
+
 export default function MonitorsList() {
   return (
-    <div>
-      MonitorsList
+    <div className="Product">
+      <MonitorPr />
     </div>
   );
 }

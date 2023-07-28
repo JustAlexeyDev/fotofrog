@@ -1,17 +1,17 @@
-import camera from '../../../assets/imgs/5393_big.jpg'
+import photo from '../../../assets/imgs//5153_big.jpg'
 
 import React, { useState } from 'react';
 
 import '../css/Modal.css'
 
 
-export default function Battery() {
-  var name = 'Зарядка для V-Mount на 2 поста KingMa BP-2CH ';
-  var Price = '9 390 руб';
-  var Articul = 'Артикул: 00111';
-  var Creator = 'Производитель: Kingma';
-  var size = 'Размеры: 265 x 210 x 125';
-  var weight = 'Вес: 1.3 кг.';
+export default function VideoSender() {
+  var name = 'Камера RED V-Raptor XL 8K VV';
+  var Price = '70 900 руб.';
+  var Articul = 'Артикул: 00113';
+  var Creator = 'Производитель: Hollyland';
+  var size = 'Размеры: 294 x 274 x 139';
+  var weight = ' Вес: 2кг.';
 
   const [isOpen, setIsOpen] = useState(false);
 
@@ -28,12 +28,12 @@ export default function Battery() {
     <div>
       <div className='Product-container'>
         <div >
-          <img id='CameraImg' width={200} src={camera} alt='photo'/>
+          <img id='CameraImg' width={200} src={photo} alt='photo'/>
         </div>
         
         <div id='ProductName'>{name}</div>
         <div id='Price'>{Price}</div>
-        <button id='Buy'>Купить</button>
+        <button id='Buy'>Под заказ</button>
 
         <div>
           <button onClick={openModal}>Больше информации..</button>
@@ -52,7 +52,7 @@ export default function Battery() {
             </div>
           )}
         </div>          
-      </div>  
+      </div>    
 
   
     </div>

@@ -1,17 +1,15 @@
-import camera from '../../../assets/imgs/5393_big.jpg'
+import Monitor from '../../../assets/imgs/5108_middle.png'
 
 import React, { useState } from 'react';
 
-import '../css/Modal.css'
 
-
-export default function Battery() {
-  var name = 'Зарядка для V-Mount на 2 поста KingMa BP-2CH ';
-  var Price = '9 390 руб';
-  var Articul = 'Артикул: 00111';
-  var Creator = 'Производитель: Kingma';
-  var size = 'Размеры: 265 x 210 x 125';
-  var weight = 'Вес: 1.3 кг.';
+export default function MonitorPr() {
+  var name = 'Камера RED V-Raptor XL 8K VV';
+  var Price = '12 990 руб.';
+  var Articul = 'Артикул: 00061';
+  var Creator = 'Производитель: Feelworld';
+  var size = 'Размеры: 148 x 93 x 20';
+  var weight = ' Вес: 0.235 кг.';
 
   const [isOpen, setIsOpen] = useState(false);
 
@@ -28,7 +26,7 @@ export default function Battery() {
     <div>
       <div className='Product-container'>
         <div >
-          <img id='CameraImg' width={200} src={camera} alt='photo'/>
+          <img id='CameraImg' width={200} src={Monitor} alt='Monitor'/>
         </div>
         
         <div id='ProductName'>{name}</div>
@@ -52,7 +50,7 @@ export default function Battery() {
             </div>
           )}
         </div>          
-      </div>  
+      </div>    
 
   
     </div>
