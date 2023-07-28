@@ -6,7 +6,8 @@ import '../css/Modal.css'
 
 
 export default function VideoSender() {
-  var name = 'Камера RED V-Raptor XL 8K VV';
+  
+  var name = ' Видеосендер Hollyland Cosmo C1 ';
   var Price = '70 900 руб.';
   var Articul = 'Артикул: 00113';
   var Creator = 'Производитель: Hollyland';
@@ -31,7 +32,7 @@ export default function VideoSender() {
           <ModalImage id='CameraImg'
             small={photo}
             large={photo}
-            alt="Зарядка для V-Mount на 2 поста KingMa BP-2CH "
+            alt="Видеосендер Hollyland Cosmo C1 "
           />
         </div>
         

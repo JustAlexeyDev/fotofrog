@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 
 
 export default function MonitorPr() {
-  var name = 'Камера RED V-Raptor XL 8K VV';
+  var name = 'К Feelworld F6 Plus v2 монитор накамерный ';
   var Price = '12 990 руб.';
   var Articul = 'Артикул: 00061';
   var Creator = 'Производитель: Feelworld';
@@ -29,7 +29,7 @@ export default function MonitorPr() {
           <ModalImage id='CameraImg'
             small={Monitor}
             large={Monitor}
-            alt="Зарядка для V-Mount на 2 поста KingMa BP-2CH "
+            alt=" Feelworld F6 Plus v2 монитор накамерный "
           />
         </div>
         

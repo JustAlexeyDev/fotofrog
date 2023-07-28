@@ -32,7 +32,7 @@ export default function Camera() {
           <ModalImage id='CameraImg'
             small={camera}
             large={camera}
-            alt="Зарядка для V-Mount на 2 поста KingMa BP-2CH "
+            alt="RED KOMODO-X 6K кинокамера (Canon RF, Черный цвет) "
           />
         </div>
         
