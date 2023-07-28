@@ -2,4 +2,21 @@
   transition: all;
   transition: 0.3s;
   font-family: 'Roboto', sans-serif;
+  --font-var: #1cc761
+}
+body {
+  background-color: #111;
+  color: #fff;
+}
+
+button {
+  padding: 8px;
+  background-color: #343434;
+  border-radius: 20px;
+  color: #ffffff;
+}
+button:hover,
+button:focus,
+button:active {
+  color: var(--font-var);
 }

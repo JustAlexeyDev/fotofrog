@@ -1,23 +1,24 @@
+// Import JSLIB
 import { Routes, Route } from "react-router-dom";
 
-// Components
-import Header from "./components/Header";
-import BatteryList from "./components/BatteryList";
+// Import components
+import Nav from "./components/Nav";
+import BatteryList from "./components/Lists/BatteryList";
 import Home from "./components/Home";
-import VideoSendersList from "./components/VideoSendersList";
-import CamerasList from "./components/CamersList";
-import CabelsList from "./components/CabelsList";
-import MonitorsList from "./components/MonitorsList";
-import LightList from "./components/LightList";
-import CellsList from "./components/CellsList";
-import OtherList from "./components/OtherList";
-import StabilizationList from "./components/StabilizationList";
-import BodyKitsList from "./components/BodyKitsList";
+import VideoSendersList from "./components/Lists/VideoSendersList";
+import CamerasList from "./components/Lists/CamersList";
+import CabelsList from "./components/Lists/CabelsList";
+import MonitorsList from "./components/Lists/MonitorsList";
+import LightList from "./components/Lists/LightList";
+import CellsList from "./components/Lists/CellsList";
+import OtherList from "./components/Lists/OtherList";
+import StabilizationList from "./components/Lists/StabilizationList";
+import BodyKitsList from "./components/Lists/BodyKitsList";
 
 export default function App() {
   return (
     <div>
-      <Header />
+      <Nav />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="Home" element={<Home />} />
