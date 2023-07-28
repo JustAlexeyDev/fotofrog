@@ -2,6 +2,7 @@
 import { Routes, Route } from "react-router-dom";
 
 // Import components
+import Header from "./components/pages/Header";
 import Nav from "./components/Nav";
 import BatteryList from "./components/Lists/BatteryList";
 import Home from "./components/Home";
@@ -18,6 +19,7 @@ import BodyKitsList from "./components/Lists/BodyKitsList";
 export default function App() {
   return (
     <div>
+      <Header />
       <Nav />
       <Routes>
         <Route path="/" element={<Home />} />
