@@ -1,5 +1,7 @@
 import './Home.css';
 
+import CamerasList from './Lists/CamersList';
+
 export default function Home() {
   return (
     <main>
@@ -9,7 +11,7 @@ export default function Home() {
           <button id='all-hits'>Все хиты</button>
         </div>
         <div id='hits'>
-          {/* HITS DISPLAY */}
+          <CamerasList/>
         </div>
         
         <div className='HomeTitleHits'>
