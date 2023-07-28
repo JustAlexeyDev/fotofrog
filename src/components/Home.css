@@ -1,0 +1,15 @@
+main {
+  padding: 16px;
+  --font-var: #1cc761
+}
+
+.HomeTitleHits {
+  display: flex;
+  justify-content: space-between;
+}
+.HomeTitleHits button:hover, 
+.HomeTitleHits button:focus,
+.HomeTitleHits button:active {
+  display: flex;
+  color: var(--font-var); 
+}
