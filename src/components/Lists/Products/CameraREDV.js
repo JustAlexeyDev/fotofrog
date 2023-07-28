@@ -31,8 +31,8 @@ export default function CameraREDV() {
           <img id='CameraImg' width={200} src={camera} alt='photo'/>
         </div>
         
-        <div id='ProductName'>Камера RED V-Raptor XL 8K VV </div>
-        <div id='Price'>100.000$</div>
+        <div id='ProductName'>{name}</div>
+        <div id='Price'>{Price}</div>
         <button id='Buy'>Под заказ</button>
 
         <div>
