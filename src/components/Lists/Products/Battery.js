@@ -11,7 +11,7 @@ export default function Battery() {
   var Articul = 'Артикул: 00111';
   var Creator = 'Производитель: Kingma';
   var size = 'Размеры: 265 x 210 x 125';
-  var weight = '1.3 кг.';
+  var weight = 'Вес: 1.3 кг.';
 
   const [isOpen, setIsOpen] = useState(false);
 

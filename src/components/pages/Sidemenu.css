@@ -1,4 +1,5 @@
 .side-menu {
+  z-index: 99;
   position: absolute;
   left: -200px;
   top: 0;

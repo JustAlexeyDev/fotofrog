@@ -6,12 +6,12 @@ import '../css/Modal.css'
 
 
 export default function CameraREDV() {
-  var name = 'зарядка для V-Mount на 2 поста KingMa BP-2CH ';
+  var name = 'Камера RED V-Raptor XL 8K VV';
   var Price = '9 390 руб';
   var Articul = 'Артикул: 00397';
   var Creator = 'Производитель: RED';
   var size = 'Размеры: 393 x 292 x 279';
-  var weight = '7 кг.';
+  var weight = 'Вес: 7 кг.';
 
   const [isOpen, setIsOpen] = useState(false);
 
