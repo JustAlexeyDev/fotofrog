@@ -1,7 +1,7 @@
-import camera from '../../../assets/imgs/5393_big.jpg'
+import BAtteryimg from '../../../assets/imgs/5393_big.jpg'
 
 import React, { useState } from 'react';
-
+import ModalImage from 'react-modal-image';
 import '../css/Modal.css'
 
 
@@ -28,7 +28,11 @@ export default function Battery() {
     <div>
       <div className='Product-container'>
         <div >
-          <img id='CameraImg' width={200} src={camera} alt='photo'/>
+          <ModalImage id='CameraImg'
+            small={BAtteryimg}
+            large={BAtteryimg}
+            alt="Зарядка для V-Mount на 2 поста KingMa BP-2CH "
+          />
         </div>
         
         <div id='ProductName'>{name}</div>

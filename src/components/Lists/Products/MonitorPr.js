@@ -1,5 +1,5 @@
 import Monitor from '../../../assets/imgs/5108_middle.png'
-
+import ModalImage from 'react-modal-image';
 import React, { useState } from 'react';
 
 
@@ -26,7 +26,11 @@ export default function MonitorPr() {
     <div>
       <div className='Product-container'>
         <div >
-          <img id='CameraImg' width={200} src={Monitor} alt='Monitor'/>
+          <ModalImage id='CameraImg'
+            small={Monitor}
+            large={Monitor}
+            alt="Зарядка для V-Mount на 2 поста KingMa BP-2CH "
+          />
         </div>
         
         <div id='ProductName'>{name}</div>
