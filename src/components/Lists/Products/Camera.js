@@ -11,7 +11,7 @@ export default function Camera() {
   var Articul = 'Артикул: 00398';
   var Creator = 'Производитель: RED';
   var size = 'Размеры:  129 x 101 x 95';
-  var weight = '3 кг.';
+  var weight = 'Вес: 3 кг.';
 
 
   const [isOpen, setIsOpen] = useState(false);
