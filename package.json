@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router": "^6.14.2",
+    "react-router-dom": "^6.14.2",
+    "react-scripts": "^5.0.1"
+  },
+  "name": "fotofrog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start"
+  },
+  "keywords": [],
+  "author": "Alexey",
+  "license": "ISC",
+  "description": ""
+}
