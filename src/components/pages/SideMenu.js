@@ -41,11 +41,10 @@ const SideMenu = () => {
                   <li><Link to="/MonitorsList"><button>Мониторы</button></Link></li>  
                   <li><Link to="/LightList"><button>Свет</button></Link></li>  
                   <li><Link to="/CellsList"><button>Клетки для камер</button></Link></li>  
-                  <li><Link to="/OtherList"><button>Прочее</button></Link></li>  
                   <li><Link to="/StabilizationList"><button>Стабилизация</button></Link></li>  
                   <li><Link to="/BodyKitsList"><button>Обвесы</button></Link></li>                   
+                  <li><Link to="/OtherList"><button>Прочее</button></Link></li>  
                 </nav>
- 
               </ul>      
             </div>    
           </div>  );};

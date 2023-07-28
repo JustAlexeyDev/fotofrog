@@ -33,7 +33,7 @@ export default function Camera() {
         </div>
         
         <div id='ProductName'> RED KOMODO-X 6K кинокамера (Canon RF, Черный цвет) </div>
-        <div id='Price'>100.000$</div>
+        <div id='Price'>{Price}</div>
         <button id='Buy'>Под заказ</button>
 
         <div>
